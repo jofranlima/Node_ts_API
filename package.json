@@ -1,0 +1,31 @@
+{
+  "name": "node_ts_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jofranlima/Node_ts_API.git"
+  },
+  "author": "Jofran Lima",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jofranlima/Node_ts_API/issues"
+  },
+  "homepage": "https://github.com/jofranlima/Node_ts_API#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.10",
+    "prisma": "^5.5.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "@prisma/client": "^5.5.2",
+    "fastify": "^4.24.3",
+    "tsx": "^3.14.0"
+  }
+}
